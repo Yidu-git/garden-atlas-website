@@ -1,0 +1,9 @@
+const ProductsPage = () => {
+  return (
+    <div>
+      <div></div>
+    </div>
+  );
+};
+
+export default ProductsPage;

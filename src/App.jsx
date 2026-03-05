@@ -1,13 +1,16 @@
-import { useState } from 'react'
+import { useState } from "react";
+import { Routes, Route } from "react-router-dom";
+import Layout from "./Layout";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
-    <>
-    <div></div>
-    </>
-  )
+    <Routes>
+      {/* <Route path="*" element={<div className="bg-red-100" />} /> */}
+      <Route path="*" element={<Layout />} />
+    </Routes>
+  );
 }
 
-export default App
+export default App;

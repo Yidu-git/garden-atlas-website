@@ -1,1 +1,26 @@
-@import "tailwindcss"
+@import "tailwindcss";
+
+@layer components {
+  .button {
+    background-color: #347965;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 1000px;
+    cursor: pointer;
+  }
+
+  .button:hover {
+    padding: 2.5px 12.5px;
+    border: 5px solid #59b99f;
+  }
+
+  .img-hero {
+    background-image: url("./assets/Heroimage.jpg");
+    background-position: 0;
+    background-size: cover;
+  }
+}
+
+* {
+  font-family: montserrat;
+}
