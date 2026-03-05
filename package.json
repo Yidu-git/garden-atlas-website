@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://Yidu-git.github.io/study-group-manager",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
